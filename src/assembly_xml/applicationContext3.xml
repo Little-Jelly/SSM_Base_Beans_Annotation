@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- services -->
+    <bean id="b_be_Depended" class="assembly_xml.B_be_Depended"></bean>
+    <bean id="b_Dependence_Injection" class="assembly_xml.B_Dependence_Injection">
+        <constructor-arg>
+            <ref bean="b_be_Depended"></ref>
+        </constructor-arg>
+    </bean>
+    <!-- more bean definitions for services go here -->
+</beans>

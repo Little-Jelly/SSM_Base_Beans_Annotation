@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="Spring" type="spring">
+    <CLASSES>
+      <root url="jar://D:/Spring源文件/spring-framework-4.3.6.RELEASE-dist/spring-framework-4.3.6.RELEASE/libs/spring-expression-4.3.6.RELEASE.jar!/" />
+      <root url="jar://D:/Spring源文件/spring-framework-4.3.6.RELEASE-dist/spring-framework-4.3.6.RELEASE/libs/spring-beans-4.3.6.RELEASE.jar!/" />
+      <root url="jar://D:/Spring源文件/spring-framework-4.3.6.RELEASE-dist/spring-framework-4.3.6.RELEASE/libs/spring-context-support-4.3.6.RELEASE.jar!/" />
+      <root url="jar://D:/Spring源文件/spring-framework-4.3.6.RELEASE-dist/spring-framework-4.3.6.RELEASE/libs/spring-core-4.3.6.RELEASE.jar!/" />
+      <root url="jar://D:/Spring源文件/spring-framework-4.3.6.RELEASE-dist/spring-framework-4.3.6.RELEASE/libs/spring-context-4.3.6.RELEASE.jar!/" />
+      <root url="jar://D:/Spring源文件/spring-framework-4.3.6.RELEASE-dist/spring-framework-4.3.6.RELEASE/libs/spring-instrument-4.3.6.RELEASE.jar!/" />
+      <root url="jar://D:/Spring源文件/spring-framework-4.3.6.RELEASE-dist/spring-framework-4.3.6.RELEASE/libs/spring-aspects-4.3.6.RELEASE.jar!/" />
+      <root url="jar://D:/Spring源文件/spring-framework-4.3.6.RELEASE-dist/spring-framework-4.3.6.RELEASE/libs/spring-aop-4.3.6.RELEASE.jar!/" />
+      <root url="jar://D:/Spring源文件/spring-framework-4.3.6.RELEASE-dist/spring-framework-4.3.6.RELEASE/libs/spring-jdbc-4.3.6.RELEASE.jar!/" />
+      <root url="jar://D:/Spring源文件/spring-framework-4.3.6.RELEASE-dist/spring-framework-4.3.6.RELEASE/libs/spring-jms-4.3.6.RELEASE.jar!/" />
+      <root url="jar://D:/Spring源文件/spring-framework-4.3.6.RELEASE-dist/spring-framework-4.3.6.RELEASE/libs/spring-messaging-4.3.6.RELEASE.jar!/" />
+      <root url="jar://D:/Spring源文件/spring-framework-4.3.6.RELEASE-dist/spring-framework-4.3.6.RELEASE/libs/spring-webmvc-4.3.6.RELEASE.jar!/" />
+      <root url="jar://D:/Spring源文件/spring-framework-4.3.6.RELEASE-dist/spring-framework-4.3.6.RELEASE/libs/spring-websocket-4.3.6.RELEASE.jar!/" />
+      <root url="jar://D:/Spring源文件/spring-framework-4.3.6.RELEASE-dist/spring-framework-4.3.6.RELEASE/libs/spring-web-4.3.6.RELEASE.jar!/" />
+      <root url="jar://D:/Spring源文件/spring-framework-4.3.6.RELEASE-dist/spring-framework-4.3.6.RELEASE/libs/spring-tx-4.3.6.RELEASE.jar!/" />
+      <root url="jar://D:/Spring源文件/spring-framework-4.3.6.RELEASE-dist/spring-framework-4.3.6.RELEASE/libs/spring-test-4.3.6.RELEASE.jar!/" />
+      <root url="jar://D:/Spring源文件/spring-framework-4.3.6.RELEASE-dist/spring-framework-4.3.6.RELEASE/libs/spring-oxm-4.3.6.RELEASE.jar!/" />
+      <root url="jar://D:/Spring源文件/spring-framework-4.3.6.RELEASE-dist/spring-framework-4.3.6.RELEASE/libs/spring-orm-4.3.6.RELEASE.jar!/" />
+      <root url="jar://D:/Spring源文件/第三方依赖包/commons-logging-1.2-bin/commons-logging-1.2/commons-logging-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
