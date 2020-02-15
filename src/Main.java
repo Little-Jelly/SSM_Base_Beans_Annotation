@@ -1,3 +1,4 @@
+import assembly_annotation_1.B_UserController2;
 import assembly_xml.B_User_1;
 import assembly_xml.B_User_2;
 import assembly_xml.B_Dependence_Injection;
@@ -12,7 +13,8 @@ public class Main {
 //        m.test_replace_new();
 //        m.assembly_by_constructor();
 //        m.assembly_by_constructor2();
-        m.assembly_by_construstor3();
+//        m.assembly_by_construstor3();
+        m.assembly_auto();
     }
 
     /*
@@ -62,5 +64,14 @@ public class Main {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("assembly_xml/applicationContext3.xml");
         B_Dependence_Injection test = (B_Dependence_Injection) applicationContext.getBean("b_Dependence_Injection");
         test.business();
+    }
+
+    /*
+    *   des:
+    * */
+    public void assembly_auto(){
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("assembly_annotation_1/applicationContext4.xml");
+        B_UserController2 test = (B_UserController2)applicationContext.getBean("userController");
+        test.say();
     }
 }

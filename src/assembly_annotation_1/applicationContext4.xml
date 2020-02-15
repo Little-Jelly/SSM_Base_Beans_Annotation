@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+    <bean id="userDao2" class="assembly_annotation_1.B_UserDao2"/>
+    <bean id="userService2" class="assembly_annotation_1.B_UserService2"/>
+    <bean id="userController" class="assembly_annotation_1.B_UserController2"/>
+    <!--<context:component-scan base-package="assembly_annotation_1" />-->
+</beans>
