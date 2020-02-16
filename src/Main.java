@@ -1,4 +1,6 @@
 import assembly_annotation_1.B_UserController2;
+import assembly_annotation_1.B_UserController3;
+import assembly_annotation_1.B_UserService3;
 import assembly_xml.B_User_1;
 import assembly_xml.B_User_2;
 import assembly_xml.B_Dependence_Injection;
@@ -14,7 +16,8 @@ public class Main {
 //        m.assembly_by_constructor();
 //        m.assembly_by_constructor2();
 //        m.assembly_by_construstor3();
-        m.assembly_auto();
+//        m.assembly_auto();
+        m.assembly_auto2();
     }
 
     /*
@@ -67,11 +70,28 @@ public class Main {
     }
 
     /*
-    *   des:
+    *   des: to use annotation to assembly the Bean
+    *   inject args: POJO
+    *   constructor args value restoration: default constructor
+    *   related xml: applicationContext4.xml
+    *   test-result: successfully
     * */
     public void assembly_auto(){
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("assembly_annotation_1/applicationContext4.xml");
         B_UserController2 test = (B_UserController2)applicationContext.getBean("userController");
+        test.say();
+    }
+
+    /*
+    *   des: to use annotation to assembly the Bean
+    *   inject args: POJO
+    *   constructor args value restoration: setter method and constructor method(not default)
+    *   related xml: applicationContext5.xml
+    *   test-result: successfully
+    * */
+    public void assembly_auto2(){
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("assembly_annotation_1/applicationContext5.xml");
+        B_UserController3 test = (B_UserController3)applicationContext.getBean("userController3");
         test.say();
     }
 }
